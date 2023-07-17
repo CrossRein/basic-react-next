@@ -1,10 +1,10 @@
 import '../styles/globals.css';
 import '../styles/login.css';
+import "../styles/tesku.css"
 
 function MyApp({ Component, pageProps }) {
   return (
     <div>
-      <p>text parent</p>
       <Component {...pageProps} />
     </div>
   );
